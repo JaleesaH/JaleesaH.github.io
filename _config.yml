@@ -3,6 +3,38 @@ title: The Clothing Chest
 tagline: "Who doesn't love clothes. Enough styles for both men and women!'"
 url: "http://yourwebsite.com" # The base hostname & protocol for your site. Use it if you need absolute URL's
 
+ul#list-nav {
+  margin:20px;
+  padding:0;
+  list-style:none;
+  width:525px;
+}
+
+
+ul#list-nav li {
+  display:inline
+}
+
+ul#list-nav li a {
+ text-decoration:none;
+ padding:5px 0;
+ width:100px;
+ background:#485e49;
+ color:#eee;
+ float:left;
+}
+
+ul#list-nav li a {
+  text-align:center;
+  border-left:1px solid #fff;
+}
+
+ul#list-nav li a:hover {
+  background:#a2b3a1;
+  color:#000
+}
+
+
 # Social
 socialimg: /img/social.jpg # be sure to change this image
 facebook: fbusername
