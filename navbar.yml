@@ -24,3 +24,8 @@ ul#list-nav li a {
   text-align:center;
   border-left:1px solid #fff;
 }
+
+ul#list-nav li a:hover {
+  background:#a2b3a1;
+  color:#000
+}
